@@ -132,14 +132,6 @@ main {
   opacity: 0.9;
 }
 
-.vk:focus-visible,
-.tg:focus-visible,
-.gh:focus-visible {
-  outline: 3px solid #ff9900;
-  outline-offset: 2px;
-  border-radius: 5px;
-}
-
 footer {
   flex-shrink: 0;
   background: #e6e4e4;
