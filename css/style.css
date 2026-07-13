@@ -13,18 +13,20 @@ body {
 
 h1,
 h2,
+h3,
 p {
   padding: 0;
   margin: 0;
+  font-family: var(--font-family);
+  font-weight: 900;
+  text-align: center;
 }
 
 main {
   position: relative;
   margin: 0 auto;
-  /* border-radius: 0 0 10px 10px; */
   width: 360px;
   max-width: 100%;
-  /* box-shadow: 7px 4px 18px 0 rgba(0, 0, 0, 0.25); */
   background: #e6e4e4;
   flex: 1 0 auto;
 }
@@ -50,10 +52,7 @@ main {
 }
 
 h1 {
-  font-family: var(--font-family);
-  font-weight: 900;
   font-size: 18px;
-  text-align: center;
   color: #fff;
   padding-top: 45px;
   margin-bottom: 114px;
@@ -83,19 +82,14 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-family);
   font-weight: 900;
   font-size: 20px;
-  text-align: center;
   color: #000;
   padding-top: 59px;
 }
 
-p {
-  font-family: var(--font-family);
-  font-weight: 900;
+h3 {
   font-size: 14px;
-  text-align: center;
   color: #e48282;
 }
 
@@ -180,6 +174,7 @@ footer {
   background: #e6e4e4;
 }
 
-footer p {
+p {
   color: #888585;
+  font-size: 14px;
 }
